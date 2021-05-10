@@ -28,3 +28,12 @@ This is Flask Web Framework library.
   - su - postgres
   - psql
   - \l (Lists of Database)
+  - \q (Quit)
+  - \? (Help)
+
+### Change the Password and Create Database
+  - ALTER USER postgres with encrypted password '[Input the Password]';
+  - sudo /etc/init.d/postgresql restart (restart)
+  - psql -U postgres h localhost (Check the psql)
+  - sudo -u postgres createdb [DB_name]
+  - sudo -u postgres psql [DB_name]
