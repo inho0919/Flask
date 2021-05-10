@@ -23,3 +23,8 @@ This is Flask Web Framework library.
 
 ## Database (Install PostgreSQL)
   - sudo apt-get install postgresql
+
+### PostgreSQL Access
+  - su - postgres
+  - psql
+  - \l (Lists of Database)
