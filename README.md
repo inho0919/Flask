@@ -18,3 +18,4 @@ This is Flask Web Framework library.
 ## Chapter
 - Basic 1,2
 - Render Template
+- REST API (GET, POST)
