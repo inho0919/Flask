@@ -19,3 +19,7 @@ This is Flask Web Framework library.
 - Basic 1,2
 - Render Template
 - REST API (GET, POST)
+
+---
+## Database (Install PostgreSQL)
+  - sudo apt-get install postgresql
