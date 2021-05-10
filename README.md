@@ -30,6 +30,7 @@ This is Flask Web Framework library.
   - \l (Lists of Database)
   - \q (Quit)
   - \? (Help)
+  - \d (Check the table)
 
 ### Change the Password and Create Database
   - ALTER USER postgres with encrypted password '[Input the Password]';
@@ -37,3 +38,8 @@ This is Flask Web Framework library.
   - psql -U postgres -h localhost (Check the psql)
   - sudo -u postgres createdb [DB_name]
   - sudo -u postgres psql [DB_name]
+
+### Create table for CRUD Board
+  - CREATE TABLE board(id VARCHAR2(20) PRIMARY KEY, text TEXT);
+
+
