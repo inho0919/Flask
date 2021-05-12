@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Read</title>
+    </head>
+    <body>
+        <p>글 번호 : {{ total[0][0] }}</p>
+        <p>글 작성자 : {{ total[0][1] }}</p>
+        <p>글 제목 : {{ total[0][2] }}</p>
+        <p>글 내용 : {{ total[0][3] }}</p>
+        <hr>
+        
+        <input type='button' value='삭제' onclick="location.href='delete?no={{ total[0][0] }}'">
+        <input type='button' value='수정' onclick="location.href='update?no={{ total[0][0] }}'">
+        <hr>
+    </body>
+</html>

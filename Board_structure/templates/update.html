@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Update</title>
+    </head>
+    <body>
+        <form action='/posts1' method='post'>
+            <p><input type='hidden' name='no' value='{{ total[0][0] }}' /></p>
+			<p>아이디 : <input type='text' name='ids' value='{{ total[0][1] }}'></p> 
+            <p>제목 : <input type='text' name='title' value='{{ total[0][2] }}'></p>
+            <p>내용 : <input type='text' name='content' value='{{ total[0][3] }}'></p>
+			<input type="submit" value='Send'>
+		</form>
+    </body>
+</html>
