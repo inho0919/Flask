@@ -19,6 +19,8 @@ This is Flask Web Framework library.
 - Basic 1,2
 - Render Template
 - REST API (GET, POST)
+- DB Connection (PostgreSQL)
+- CRUD for Board
 
 
 ## Database (Install PostgreSQL)
