@@ -42,6 +42,6 @@ This is Flask Web Framework library.
   - sudo -u postgres psql [DB_name]
 
 ### Create table for CRUD Board (Example)
-  - CREATE TABLE board(id VARCHAR2(20) PRIMARY KEY, text TEXT);
+  - CREATE TABLE board(no SERIAL NOT NULL PRIMARY KEY, id VARYING CHARACTER(20), title VARYING CHARACTER(50), text TEXT);
 
 
